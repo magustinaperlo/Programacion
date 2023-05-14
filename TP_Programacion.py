@@ -129,6 +129,18 @@ def Suma(A, B):
     return(A + B)
 print(Suma(A = 5, B = 8))
 
+def Resta(A, B):
+    return(A - B)
+print(Resta(A = 12, B = 6))
+
+def Multiplicar(A, B):
+    return(A * B)
+print(Multiplicar(A = 2, B = 4))
+
+def Dividir(A, B):
+    return(A / B)
+print(Dividir(A = 10, B = 2))
+
 def Area_Rectangulo(Base, Altura):
     return(Base * Altura)
 print(Area_Rectangulo(Base = 15, Altura = 10))
@@ -168,5 +180,10 @@ def Area_Circulo(Radio):
     return(pi * Radio ** 2)
 print(Area_Circulo(Radio = 6))
 
+def Perimetro_Triangulo(A, B, C):
+    return (A + B + C)
+print(Perimetro_Triangulo(A = 4, B = 7, C = 4))
 
-
+def Str_Int_Converter(A):
+    return (int(A))
+print(Str_Int_Converter(A = "2"))    
