@@ -13,3 +13,6 @@ while True:
 
     except ValueError:
         print("Valor erroneo")
+        
+        
+'''corregir un error de lógica en este ejercicio, ingrese un índice y el nº devuelto no fue acertado''''
